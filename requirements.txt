@@ -1,5 +1,5 @@
-torch==2.2.1
-torchvision==0.17.1
+torch==2.5.1
+torchvision==0.20.1
 timm==0.9.16
 opencv-python-headless==4.8.1.78
 imageio==2.34.0
