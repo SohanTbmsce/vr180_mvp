@@ -1,5 +1,5 @@
 torch==2.5.1
-torchvision==0.20.1
+torchvision==0.21.0
 timm==0.9.16
 opencv-python-headless==4.8.1.78
 imageio==2.34.0
@@ -9,3 +9,4 @@ numpy==1.26.4
 scipy==1.12.0
 Pillow==10.2.0
 git+https://github.com/google/spatial-media.git
+
