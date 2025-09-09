@@ -34,7 +34,7 @@ except Exception:
 
 # Constants
 DEFAULT_DEPTH_RES = 256
-SAMPLE_SECONDS = 10
+SAMPLE_SECONDS = 30
 SMART_INPAINT_THRESHOLD = 0.02  # fraction of pixels missing to trigger heavy inpainting
 
 # ---------------------
@@ -471,4 +471,5 @@ if process_btn and uploaded is not None:
 st.markdown("---")
 st.markdown("**Tips for demo**: use Demo Mode, low depth resolution (128–256), skip=2, small clip (5–10s).")
 st.markdown("**Further improvements (optional for production):** move heavy processing to a GPU worker (FastAPI + Celery), replace simple warp with MPI or Softsplat for higher quality, add user accounts + queue for multi-user upload.")
+
 
