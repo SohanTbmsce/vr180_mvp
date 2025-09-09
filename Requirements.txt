@@ -1,8 +1,11 @@
 torch
 torchvision
 opencv-python
-numpy
-imageio[ffmpeg]
-tqdm
+imageio
+imageio-ffmpeg
 streamlit
-matplotlib
+numpy
+scipy
+Pillow
+simple-lama-inpainting
+git+https://github.com/google/spatial-media.git
