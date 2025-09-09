@@ -20,6 +20,8 @@ from PIL import Image
 import cv2
 import imageio
 import torch
+import warnings
+warnings.filterwarnings("ignore", message=".*torch.classes.*")
 
 # try to import simple-lama-inpainting wrapper
 try:
@@ -469,3 +471,4 @@ if process_btn and uploaded is not None:
 st.markdown("---")
 st.markdown("**Tips for demo**: use Demo Mode, low depth resolution (128–256), skip=2, small clip (5–10s).")
 st.markdown("**Further improvements (optional for production):** move heavy processing to a GPU worker (FastAPI + Celery), replace simple warp with MPI or Softsplat for higher quality, add user accounts + queue for multi-user upload.")
+
