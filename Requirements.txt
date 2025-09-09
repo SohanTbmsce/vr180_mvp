@@ -1,6 +1,6 @@
 torch
 torchvision
-opencv-python
+opencv-python-headless==4.8.1.78
 imageio
 imageio-ffmpeg
 streamlit
@@ -9,3 +9,4 @@ scipy
 Pillow
 simple-lama-inpainting
 git+https://github.com/google/spatial-media.git
+
